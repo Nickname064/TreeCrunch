@@ -6,7 +6,7 @@ IMPORTANT: This is not compression, and is rather written so as to be able to em
 Provide `TreeCrunch` with one or multiple paths, which it will treat as being in the root directory.
 It will then turn all of those files into a single one, with the following structure
 - `[Header size(u64)]`
-- `[Headers] -> { `[file size(u64)]`, `[file start index(u64)]`, `[file path(null-teminated CString)]` }
+- `[Headers]` -> { `[file size(u64)]`, `[file start index(u64)]`, `[file path(null-teminated CString)]` }
 - `[File(s)]`
 
 ## Notes
